@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.appsmaggys.caear.appfuentedesodamaggys.Fragments.PerfilFragment"
+             android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:drawableRight="@mipmap/ic_launcher_puntos"
+                    android:id="@+id/tvPerfilPuntos"
+                    android:textSize="14sp"
+                    android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:id="@+id/espacio"
+                    android:textSize="18sp"
+                    android:layout_weight="1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Nombre:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:drawableLeft="@mipmap/ic_launcher_nombre"
+                    android:id="@+id/textView1"
+                    android:textSize="14sp"
+                    android:layout_weight="0"/>
+            <TextView
+                    android:text="Carlos Arevalo E."
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvPerfilName"
+                    android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="0">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:id="@+id/espacio2"
+                    android:textSize="18sp"
+                    android:layout_weight="1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Correo:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:drawableLeft="@mipmap/ic_launcher_correochiq"
+                    android:id="@+id/textView2"
+                    android:textSize="14sp"
+            />
+            <TextView
+                    android:text="FuenteDeSodaMaggys@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvPerfilCorreo"
+                    android:textSize="14sp"
+                    android:textAllCaps="false"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="0">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:id="@+id/espacio3"
+                    android:textSize="18sp"
+                    android:layout_weight="1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TextView
+                    android:text="Telefono:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:drawableLeft="@mipmap/ic_launcher_phone"
+                    android:id="@+id/textView3"
+                    android:textSize="14sp"
+            />
+            <TextView
+                    android:text="221 619-5020"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvPerfilTelefono"
+                    android:textSize="14sp" android:contentDescription="@string/fui_verify_phone_number_title"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="0">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:id="@+id/espacio4"
+                    android:textSize="18sp"
+                    android:layout_weight="1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Direccion:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:drawableLeft="@mipmap/ic_launcher_name2"
+                    android:id="@+id/textView4"
+                    android:textSize="14sp"
+            />
+            <TextView
+                    android:text="calle 122 y 66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tvPerfilDireccion"
+                    android:textSize="14sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:id="@+id/espacio5"
+                    android:textSize="18sp"
+                    android:layout_weight="1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <Button
+                android:text="Configurar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnPerfilConfigurar"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"/>
+    </LinearLayout>
+</FrameLayout>

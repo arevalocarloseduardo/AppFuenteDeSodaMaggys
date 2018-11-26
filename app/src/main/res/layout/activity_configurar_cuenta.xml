@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2a849f"
+                android:orientation="vertical"
+                android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <TextView
+            android:id="@+id/login_title2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center_horizontal"
+            android:text="Ingresá una Cuenta"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_title2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="70dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:drawableLeft="@mipmap/ic_launcher_nombre"
+                        android:drawableTint="#2a849f"
+                        android:singleLine="true"
+                        android:hint="Nombre"
+                        android:inputType="textEmailAddress" android:id="@+id/tiNombre"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:drawableLeft="@mipmap/ic_launcher_phone"
+                        android:drawableTint="#2a849f"
+                        android:singleLine="true"
+                        android:hint="Telefono"
+                        android:id="@+id/tiTelefono" android:inputType="phone"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:drawableLeft="@mipmap/ic_launcher_direccion"
+                        android:drawableTint="#2a849f"
+                        android:singleLine="true"
+                        android:hint="Dirección"
+                        android:id="@+id/tiDireccion" android:inputType="textPostalAddress"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="22dp"
+                    android:background="#0d6f96"
+                    android:text="Listo"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" android:id="@+id/btn_Listo"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true" android:layout_marginStart="0dp"
+            android:layout_alignParentTop="true" android:id="@+id/progressBarLog" android:layout_marginTop="0dp"
+            tools:visibility="gone"
+            android:indeterminate="true"/>
+</RelativeLayout>

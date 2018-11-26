@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" tools:layout_editor_absoluteY="81dp">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <TextView
+                android:text="Carlos arevalo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tv_NombreC" android:layout_weight="0"
+                android:textSize="18sp"/>
+        <TextView
+                android:text="123254644"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/tv_TelC" android:layout_weight="1"
+                android:textAlignment="center" android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvCantP"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="3dp" android:layout_marginStart="4dp" android:textSize="18sp"
+                android:textStyle="bold|italic"/>
+        <TextView
+                android:text="Sopa de pollo con marisco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMenuP" android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="3dp" android:layout_marginStart="26dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="Para LLevar"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:id="@+id/tvLlevarP"
+                app:layout_constraintTop_toBottomOf="@+id/tvMenuP" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="24dp" android:textAlignment="viewStart" android:layout_weight="2"
+                android:textSize="18sp"/>
+        <Button
+                android:text="Borrar"
+                android:layout_width="56dp"
+                android:id="@+id/btnEliminarP" android:layout_weight="0.3"
+                style="@android:style/Widget.Material.Button.Borderless.Colored" android:textSize="14sp"
+                android:textAlignment="textEnd" android:layout_height="wrap_content" android:visibility="visible"/>
+    </LinearLayout>
+</LinearLayout>

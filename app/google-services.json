@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "543339210772",
+    "firebase_url": "https://prueba-734f3.firebaseio.com",
+    "project_id": "prueba-734f3",
+    "storage_bucket": "prueba-734f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543339210772:android:1b7aa1671f2514ca",
+        "android_client_info": {
+          "package_name": "com.appmaggys.caear.appfuentedesodamaggys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543339210772-dljl0jeajvhf73tddq3015vcsck39r6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appmaggys.caear.appfuentedesodamaggys",
+            "certificate_hash": "1dba91c446b31edfcfec76ef0077c04d362741e4"
+          }
+        },
+        {
+          "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPyTdtL_xTkZ5JiuOvqP3UlzROqi1Bdyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543339210772:android:29f5ff5b2503314b",
+        "android_client_info": {
+          "package_name": "com.example.caear.fuentedesodasmaggys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543339210772-k6agnd0d6d2c15ee9g7ngk58272kv6nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.caear.fuentedesodasmaggys",
+            "certificate_hash": "1dba91c446b31edfcfec76ef0077c04d362741e4"
+          }
+        },
+        {
+          "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPyTdtL_xTkZ5JiuOvqP3UlzROqi1Bdyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543339210772:android:5221a60a58fc4d45",
+        "android_client_info": {
+          "package_name": "com.prueba.administrador.prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543339210772-5h0jnjo2argrvcq2q22tah3tklbp07rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prueba.administrador.prueba",
+            "certificate_hash": "3c29e74e689ff88960e79b68902beab5ceaddcbb"
+          }
+        },
+        {
+          "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPyTdtL_xTkZ5JiuOvqP3UlzROqi1Bdyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543339210772:android:bc52148064ce735a",
+        "android_client_info": {
+          "package_name": "com.yadaapp.caear.fuentedesodasmaggys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543339210772-1e6irksdfjv8lqn4ee2cmca8b7vq8p96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yadaapp.caear.fuentedesodasmaggys",
+            "certificate_hash": "1dba91c446b31edfcfec76ef0077c04d362741e4"
+          }
+        },
+        {
+          "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPyTdtL_xTkZ5JiuOvqP3UlzROqi1Bdyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543339210772-i5e28jo7qok3b6i9qh6rjov1sh44c89n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
